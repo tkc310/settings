@@ -16,7 +16,6 @@
     },
     "search.smartCase": true,
     "editor.renderControlCharacters": true,
-    "editor.formatOnSave": true,
     "terminal.integrated.shell.osx": "/bin/zsh",
     "json.schemas": [
         {
