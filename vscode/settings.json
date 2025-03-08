@@ -1,83 +1,36 @@
 {
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.fontFamily": "'Roboto Mono', 'メイリオ', monospace",
-    "editor.fontSize": 15,
-    "editor.fontWeight": "300",
-    "editor.fontLigatures": true,
-    "editor.tabSize": 2,
-    "editor.renderWhitespace": "all",
-    "editor.renderLineHighlight": "gutter",
-    "files.eol": "\n",
-    "files.trimTrailingWhitespace": true,
-    "[markdown]": {
-        "files.trimTrailingWhitespace": false,
-    },
-    "search.smartCase": true,
-    "editor.renderControlCharacters": true,
-    "terminal.integrated.shell.osx": "/bin/zsh",
-    "json.schemas": [
-        {
-            "name": "vscode-expo-manifest",
-            "url": "file:///Users/user/Library/Application%20Support/Code/User/globalStorage/bycedric.vscode-expo/manifest-42.0.0.json",
-            "fileMatch": [
-                "app.json",
-                "app.config.json"
-            ]
-        }
-    ],
-    "explorer.confirmDragAndDrop": false,
-    "editor.accessibilitySupport": "on",
-    "search.exclude": {
-        ".history": true
-    },
-    "files.exclude": {
-        ".history": true
-    },
-    "redhat.telemetry.enabled": true,
-    "gitlens.advanced.messages": {
-        "suppressGitMissingWarning": true
-    },
-    "prettier.configPath": "frontend/.prettierrc",
-    "yaml.schemas": {},
-    "yaml.customTags": [
-        "!And",
-        "!And sequence",
-        "!If",
-        "!If sequence",
-        "!Not",
-        "!Not sequence",
-        "!Equals",
-        "!Equals sequence",
-        "!Or",
-        "!Or sequence",
-        "!FindInMap",
-        "!FindInMap sequence",
-        "!Base64",
-        "!Join",
-        "!Join sequence",
-        "!Cidr",
-        "!Ref",
-        "!Sub",
-        "!Sub sequence",
-        "!GetAtt",
-        "!GetAZs",
-        "!ImportValue",
-        "!ImportValue sequence",
-        "!Select",
-        "!Select sequence",
-        "!Split",
-        "!Split sequence"
-    ],
-    "html.format.contentUnformatted": "",
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "prettier.ignorePath": "frontend/.prettierignore",
-    "python.formatting.provider": "black",
-    "python.languageServer": "Pylance",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "html.format.contentUnformatted": "",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.configPath": "./.prettierrc",
+  "editor.tabCompletion": "on",
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "'Roboto Mono', 'メイリオ', monospace",
+  "editor.fontSize": 15,
+  "editor.fontWeight": "300",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "editor.renderLineHighlight": "gutter",
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "search.smartCase": true,
+  "editor.renderControlCharacters": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.accessibilitySupport": "on",
+  "search.exclude": {
+    ".history": true
+  },
+  "files.exclude": {
+    ".history": true
+  },
+  "redhat.telemetry.enabled": true,
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  }
 }
