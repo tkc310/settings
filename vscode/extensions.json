@@ -1,5 +1,6 @@
 {
   "recommendations": [
+    "bradlc.vscode-tailwindcss",
     "streetsidesoftware.code-spell-checker",
     "oderwat.indent-rainbow",
     "formulahendry.auto-close-tag",
