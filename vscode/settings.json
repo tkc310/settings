@@ -2,6 +2,7 @@
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
+  "typescript.preferences.importModuleSpecifier": "non-relative",
   "html.format.contentUnformatted": "",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.configPath": "./.prettierrc",
