@@ -4,6 +4,7 @@ source ~/.zprofile
 # alias
 ## common
 alias reload='source ~/.zshrc'
+alias vscode_init='curl "https://raw.githubusercontent.com/tkc310/settings/refs/heads/main/vscode/settings.sh" | sh'
 
 ## blog
 alias cd_blog='cd ~/workplace/blog_microcms'
