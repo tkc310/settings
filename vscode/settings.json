@@ -1,38 +1,38 @@
 {
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "typescript.preferences.importModuleSpecifier": "non-relative",
-  "html.format.contentUnformatted": "",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.configPath": "./.prettierrc",
-  "editor.tabCompletion": "on",
-  "editor.formatOnSave": true,
-  "editor.fontFamily": "'Roboto Mono', 'メイリオ', monospace",
-  "editor.fontSize": 15,
-  "editor.fontWeight": "300",
-  "editor.fontLigatures": true,
-  "editor.tabSize": 2,
-  "editor.renderWhitespace": "all",
-  "editor.renderLineHighlight": "gutter",
-  "files.eol": "\n",
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
   "[markdown]": {
     "files.trimTrailingWhitespace": false
   },
-  "search.smartCase": true,
-  "editor.renderControlCharacters": true,
-  "explorer.confirmDragAndDrop": false,
-  "editor.accessibilitySupport": "on",
-  "search.exclude": {
-    ".history": true
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
+  "html.format.contentUnformatted": "",
+  "editor.codeActionsOnSave": {
+    "source.removeUnusedImports": "explicit",
+    "source.fixAll.eslint": "explicit"
+    // "source.organizeImports": "explicit"
+  },
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "editor.accessibilitySupport": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "all",
+  "editor.renderLineHighlight": "gutter",
+  "editor.renderControlCharacters": true,
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "explorer.confirmDragAndDrop": false,
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
   "files.exclude": {
     ".history": true
   },
-  "redhat.telemetry.enabled": true,
-  "gitlens.advanced.messages": {
-    "suppressGitMissingWarning": true
-  }
+  "eslint.options": {
+    "configFile": "./.eslintrc.js"
+  },
+  "prettier.configPath": "./.prettierrc.js",
+  "search.exclude": {
+    ".history": true
+  },
+  "search.smartCase": true
 }
