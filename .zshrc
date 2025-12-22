@@ -26,4 +26,7 @@ alias gsync_develop='git reset --hard origin/develop'
 alias gsync_main='git reset --hard origin/main'
 alias gsync='git reset --hard'
 alias gclean_feature='git branch | grep feature/ | xargs git branch -d'
-
+alias gwl='git worktree list --verbose'
+alias gwa='git worktree add'
+alias gwr='git worktree remove'
+alias gwp='git worktree prune'
