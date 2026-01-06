@@ -17,9 +17,6 @@ zstyle ':vcs_info:git:*' formats ':%F{yellow}%b%f'
 # プロンプトの最後にブランチを追加
 PROMPT='$ %F{cyan}%1c%f${vcs_info_msg_0_} '
 
-# zoxide to cd
-eval "$(zoxide init zsh --cmd cd)"
-
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
