@@ -1,0 +1,15 @@
+# 画面分割したときにpathが引き継がれる（快適）
+window-inherit-working-directory = true
+
+# shift+enterを改行扱いする（快適）
+keybind = shift+enter=text:\x0d
+
+# 起動時に前の作業フォルダを引き継ぐ（快適）
+window-save-state = always
+
+# その他
+theme = 0x96f # ghostty +list-themes
+font-family = "Source Han Code JP"
+font-size = 18
+macos-titlebar-style = tabs
+  
