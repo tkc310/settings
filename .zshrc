@@ -6,9 +6,6 @@ source ~/.zprofile
 alias reload='source ~/.zshrc'
 alias vscode_init='curl "https://raw.githubusercontent.com/tkc310/settings/refs/heads/main/vscode/settings.sh" | sh'
 
-## blog
-alias cd_blog='cd ~/workplace/blog_microcms'
-
 ## mov to gif
 alias mov2gif='(){ ffmpeg -i $1.mov -r 10 $1.gif }'
 
@@ -30,3 +27,38 @@ alias gwl='git worktree list --verbose'
 alias gwa='git worktree add'
 alias gwr='git worktree remove'
 alias gwp='git worktree prune'
+
+## cli
+alias ei="eza --icons --git"
+alias ea="eza -la --icons --git"
+alias ee="eza -aahl --icons --git"
+alias et="eza -T -L 3 -a -I 'node_modules|.git|.cache' --icons"
+alias ls=ei
+alias la=ea
+alias ll=ee
+
+### with mkdir -p
+function mtouch {
+    mkdir -p "$(dirname "$1")" && touch "$1"
+}
+function mvi {
+    mkdir -p "$(dirname "$1")" && vi "$1"
+}
+
+### ghq + fzf
+cdrepo() {
+  local repodir=$(ghq list | fzf -1 +m) && cd $(ghq root)/$repodir
+}
+coderepo() {
+  local repodir=$(ghq list | fzf -1 +m) &&
+  echo Open Cursor WorkSpace! : $(ghq root)/$repodir
+  if [ -n "$repodir" ]; then
+   cursor $(ghq root)/$repodir
+  fi
+}
+
+## mise
+alias misela='mise ls-remote' # mise ls-remote node
+alias misei='mise install' # mise install node@xxx
+alias miseu='mise use' # mise use node@xxx
+alias miseg='mise global' # mise global node@xxx
