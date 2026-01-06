@@ -1,4 +1,3 @@
-
 set nocompatible
 set number
 set showmode
@@ -37,4 +36,4 @@ au BufNewFile,BufRead *.html set ts=2 sw=2 sts=0
 au BufNewFile,BufRead *.css set ts=2 sw=2 sts=0
 au BufNewFile,BufRead *.less set ts=2 sw=2 sts=0
 au BufNewFile,BufRead *.scss set ts=2 sw=2 sts=0
-  
+ 
