@@ -8,7 +8,8 @@ keybind = shift+enter=text:\x0d
 window-save-state = always
 
 # その他
-theme = 0x96f # ghostty +list-themes
+# ghostty +list-themes
+theme = 0x96f
 font-family = "Source Han Code JP"
 font-size = 18
 macos-titlebar-style = tabs
