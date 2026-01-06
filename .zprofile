@@ -28,3 +28,6 @@ eval "$(zoxide init zsh --cmd cd)"
 
 ## java
 . ~/.asdf/plugins/java/set-java-home.zsh
+
+# ghq
+export GHQ_ROOT="$HOME/workplace/ghq"
