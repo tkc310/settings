@@ -3,6 +3,9 @@
 # homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# mise
+eval "$(mise activate bash)"
+
 # zsh
 ## sheldon zsh plugins
 eval "$(sheldon source)"
