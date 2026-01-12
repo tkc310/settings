@@ -11,6 +11,6 @@ window-save-state = always
 # ghostty +list-themes
 theme = 0x96f
 font-family = "Source Han Code JP"
-font-size = 18
+font-size = 16
 macos-titlebar-style = tabs
   
