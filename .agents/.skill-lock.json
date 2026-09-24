@@ -1,0 +1,26 @@
+{
+  "version": 3,
+  "skills": {
+    "natural-japanese": {
+      "source": "coji/natural-japanese",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coji/natural-japanese.git",
+      "skillPath": "skills/natural-japanese/SKILL.md",
+      "skillFolderHash": "77fce8fc457a41321ac4963065590fb91c14f781",
+      "installedAt": "2026-09-24T07:42:04.359Z",
+      "updatedAt": "2026-09-24T07:42:04.359Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "76a98a285cb0434f3d39e1a873823556330e398b",
+      "installedAt": "2026-09-24T07:42:13.440Z",
+      "updatedAt": "2026-09-24T07:42:13.440Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  }
+}
