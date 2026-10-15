@@ -5,6 +5,8 @@
 - Karabiner-Elements
   - https://karabiner-elements.pqrs.org/
   - 入力監視の許可が必要
+- GooleIME
+  - https://www.google.co.jp/ime/
 - Meltype
   - https://github.com/yksr-melt/Meltype/blob/main/mac/README.md
   - ダウンロード後にインストールコマンド実行
